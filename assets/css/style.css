@@ -54,10 +54,6 @@ body {
 
 /* HEADER */
 
-header {
-    background-color: #B4D0E7;
-}
-
 header li {
     list-style: none;
     display: inline-block;
@@ -78,22 +74,53 @@ header li a {
     background-color: #FFFFFF;
 }
 
-/* JUMBOTRON */
+/* MAIN */ 
 
-#jumbotron .row .col {
-    max-width: calc(100% / 2);
+main {
+    background-color: #B4D0E7;
 }
 
-h1.jumbo-title {
-    width: 100%;
+/* JUMBOTRON */
+
+#jumbotron {
+    padding-top: 40px;
+}
+
+#jumbotron .container-large {
+    max-height: 580px;
+}
+
+#jumbotron h1 {
+    font-size: 4.4rem;
+    line-height: 100px;
+}
+.col-left {
+    width: 30%;
+}
+
+.col-right {
+    width: 70%;
+}
+
+.col-left p {
+    padding: 40px 0;
+}
+
+.col-left .jumbo-button {
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 10px;
+}
+
+.fa-arrow-down {
+    display: inline-block;
+    font-size: 2rem;
+    color: black;
+    padding-bottom: 10px;
 }
 
 #jumbotron img {
-    max-width: 100%;
+    width: 750px;
+    padding-top: 40px;
 }
-
-
-
-
-
-
