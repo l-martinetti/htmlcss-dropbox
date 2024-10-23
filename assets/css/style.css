@@ -31,7 +31,6 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
 }
 
 .justify-between {
@@ -54,6 +53,9 @@ body {
     display: flex;
 }
 
+.border-gray {
+    border: 1px solid lightgray;
+}
 
 /* HEADER */
 
@@ -129,7 +131,9 @@ header li a {
 }
 
 
- /* Piano Business  */
+ /*** Piano Business  ***/
+
+ /* TITLE + BUTTONS*/
 
 #piano-business {
     margin-top: 150px;
@@ -140,18 +144,34 @@ header li a {
     font-size: 2.2rem;
 }
 
-#piano-business div span:last-child {
-    margin-left: 40px;
-}
-
 #piano-business div i {
     margin-right: 2px;
 }
 
-#piano-business div i.fa-solid {
+#piano-business div i.fa-circle-dot {
     color: #0061FF;
 }
 
-#piano-business div i.fa-regular {
+#piano-business div i.fa-circle {
     color: lightgray;
+    margin-left: 40px;
+}
+
+/* BUSINESS MIDDLE CARDS */
+
+.middle-cards .row {
+    margin-top: 50px;
+}
+
+.middle-cards .col {
+    max-width: calc(100% / 3);
+    width: 300px;
+}
+
+.middle-cards .card-top {
+    padding: 10px 60px;
+}
+
+.middle-cards .card-bottom {
+    border: 1px solid lightgray;
 }
