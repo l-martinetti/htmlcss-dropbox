@@ -57,6 +57,28 @@ body {
     border: 1px solid lightgray;
 }
 
+.padding-bot-60 {
+    padding-bottom: 60px;
+}
+
+.blue-btn {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #0061FF;
+    padding: 10px;   
+}
+
+.blue-btn-wide {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #0061FF;
+    padding: 10px 25px;     
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
 /* HEADER */
 
 
@@ -82,6 +104,14 @@ header li a {
 
 
 /* MAIN */ 
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
 
 /* JUMBOTRON */
 
@@ -111,13 +141,6 @@ header li a {
     padding: 40px 0;
 }
 
-.col-left .jumbo-button {
-    text-decoration: none;
-    color: white;
-    background-color: #0061FF;
-    padding: 10px;
-}
-
 .fa-arrow-down {
     display: inline-block;
     font-size: 2rem;
@@ -141,7 +164,6 @@ header li a {
 
 #piano-business h2 {
     margin-bottom: 60px;
-    font-size: 2.2rem;
 }
 
 #piano-business div i {
@@ -173,5 +195,32 @@ header li a {
 }
 
 .middle-cards .card-bottom {
+    padding: 20px 30px;
     border: 1px solid lightgray;
+}
+
+.middle-cards .card-bottom p {
+    padding-top: 15px;
+}
+
+main ul li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.grey-line {
+    height: 0;
+    max-width: 55px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border: 1px solid lightgrey;
+}
+
+h5 {
+    padding-bottom: 30px;
 }
