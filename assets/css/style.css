@@ -282,3 +282,15 @@ h5 {
 #dropbox-business .second-row {
     margin-top: 40px;
 }
+
+/* CTA */
+
+#cta h2 {
+    max-width: 60%;
+    margin-top: 200px;
+    padding-bottom: 70px;
+}
+
+#cta a {
+    color: #0061FF;
+}
