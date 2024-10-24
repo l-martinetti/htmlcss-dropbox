@@ -25,7 +25,7 @@ body {
 
 .container-slim {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .row {
@@ -113,6 +113,14 @@ h3 {
     font-size: 1.5rem;
 }
 
+h3 + p:not(.partner-p) {
+    font-weight: bold;
+}
+
+h3 ~ p {
+    font-size: 0.8rem;
+}
+
 /* JUMBOTRON */
 
 
@@ -194,12 +202,12 @@ h3 {
     padding: 10px 60px;
 }
 
-.middle-cards .card-bottom {
+.card {
     padding: 20px 30px;
     border: 1px solid lightgray;
 }
 
-.middle-cards .card-bottom p {
+.middle-cards .card p {
     padding-top: 15px;
 }
 
@@ -223,4 +231,30 @@ main ul li {
 
 h5 {
     padding-bottom: 30px;
+}
+
+/* BUSINESS BOTTOM CARD */ 
+
+.col-left-wide {
+    max-width: 60%;
+}
+
+.col-right-small {
+    max-width: 40%;
+    padding: 50px 40px;
+}
+
+#partner .col-left-wide img {
+    max-width: 100%;
+}
+
+#partner .col p {
+    padding: 30px 0;
+}
+
+#partner .col a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;   
 }
