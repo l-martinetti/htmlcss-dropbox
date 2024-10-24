@@ -322,3 +322,28 @@ footer li a {
     max-width: calc(100% / 5);
     width: 200px;
 }
+
+footer div.grey-line {
+    margin-bottom: 50px;
+    max-width: 70px;
+    border-color: gray;
+}
+
+.language {
+    padding-bottom: 50px;
+}
+
+.bottom-footer::before {
+    font-family: "FontAwesome";
+    content: "\f57d";
+    padding-right: 8px;
+    color: gray;
+}
+
+.bottom-footer::after {
+    font-family: "FontAwesome";
+    content: "\f0d8";
+    padding-left: 5px;
+    font-size: 0.8rem;
+    color: gray;
+}
