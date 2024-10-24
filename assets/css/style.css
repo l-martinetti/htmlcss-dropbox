@@ -14,7 +14,6 @@ body {
     border: 1px solid black;
 }
 
-
 /* UTILS */
 
 
@@ -30,7 +29,6 @@ body {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .justify-between {
@@ -75,10 +73,6 @@ body {
     padding: 10px 25px;     
 }
 
-.d-inline-block {
-    display: inline-block;
-}
-
 /* HEADER */
 
 
@@ -113,7 +107,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-h3 + p:not(.partner-p) {
+h3 + p:not(.partner-p, .bot-cards-p) {
     font-weight: bold;
 }
 
@@ -244,6 +238,13 @@ h5 {
     padding: 50px 40px;
 }
 
+/** PARTNER **/
+
+#partner {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
 #partner .col-left-wide img {
     max-width: 100%;
 }
@@ -257,4 +258,27 @@ h5 {
     color: black;
     border: 1px solid black;
     padding: 10px;   
+}
+
+/* Dropbox business */
+
+#dropbox-business h2 {
+    padding: 60px 0;
+}
+
+#dropbox-business h3 {
+    padding-bottom: 30px;
+}
+
+#dropbox-business img {
+    max-width: 100%;
+}
+
+#dropbox-business .col {
+    max-width: calc(100% / 3);
+    width: 300px;
+}
+
+#dropbox-business .second-row {
+    margin-top: 40px;
 }
