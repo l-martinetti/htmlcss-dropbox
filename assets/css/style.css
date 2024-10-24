@@ -294,3 +294,31 @@ h5 {
 #cta a {
     color: #0061FF;
 }
+
+/* FOOTER */
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+footer li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer .col {
+    max-width: calc(100% / 5);
+    width: 200px;
+}
